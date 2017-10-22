@@ -1,0 +1,555 @@
+html {
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	background-color: #FBFBFB;
+	 overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+header {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #32414E;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.avatar {
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-right: 10%;
+	width: 20%
+}
+.avatar > p {
+	color: #fff;
+}
+.avatar > img {
+	margin-left: 10%;
+}
+.nik {
+	margin-left: -10%;
+}
+.menu {
+	width: 80%;
+	margin-left: 5rem;
+}
+.menu > ul {
+	display: flex;
+    margin: 0;
+}
+.menu > ul > li {
+	font-size: 1.5rem;
+	width: 15%;
+	text-align: center;
+	line-height: 5.5rem;
+	border-right: 2px solid #233752;
+	outline:1px solid  #3C4657;
+	-webkit-transition: all, 0.5s;
+	-moz-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+.menu > ul > li:nth-child(2){
+	width: 20%;
+}
+.menu > ul > li:nth-child(1){
+   border-left: 2px solid #233752; 
+}
+.menu > ul > li:nth-child(8){
+  outline : 1px solid #3c4657; 
+}
+.menu > ul > li:hover {
+	background-color: #48576C;
+}
+.adaptiv_menu:hover {
+   background-color: #48576C;
+}
+.menu > ul > li:nth-child(n + 5) {
+	width: 7%;
+}
+.menu > ul > li > a {
+   color: #fff;
+}
+.op {
+	opacity: 0;
+}
+.chat {
+	background-image: url(../../images/birga_img/chat.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.star {
+	background-image: url(../../images/birga_img/star.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.piple {
+	background-image: url(../../images/birga_img/piple.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+/*ДЛЯ JS*/
+.chatj {
+	background-image: url(../../images/birga_img/chat.png);
+	background-repeat: no-repeat;
+	background-position: 1.8rem -0.9rem;
+}
+.starj {
+	background-image: url(../../images/birga_img/star.png);
+	background-repeat: no-repeat;
+	background-position: 2rem -0.9rem;
+}
+.piplej {
+	background-image: url(../../images/birga_img/piple.png);
+	background-repeat: no-repeat;
+	background-position: 1.6rem -0.9rem;
+}
+.logo {
+	text-align: center;
+	margin-top: -1.5rem;
+}
+.logo > h1 {
+	font-size: 5rem;
+}
+.logo > h1 > .K {
+	color: #284E7D;
+}
+
+.logo > h1 > .ursach {
+   background: linear-gradient(to bottom, #5978A2 40%,#284E7D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dot {
+  font-size: 0rem;
+  border: 3px solid #2A4E7E;
+  border-radius: 50%;
+  
+}
+.ru {
+   background: linear-gradient(to bottom, #5978A2 40%,#284E7D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo > p {
+	font-size: 1.7rem;
+	margin-top: -3rem;
+    color: #395581;
+}
+.page-wrapper {
+	display: flex;
+}
+.serch {
+	display: flex;
+	margin-left: 10%;
+	margin-top: 1rem;
+}
+.serch > form > h1 {
+	padding-left: 25px;
+	border: 1px solid #4EB56B;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #4EB56B;
+	color: #fff;
+	line-height: 4.5rem;
+	width: 25rem;
+	margin-bottom: 0;
+}
+.form {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px; 
+}
+.sercher_inp {
+	width: 20rem;
+	margin-top: 2rem;
+	border: 2px solid #F2F2F1;
+	border-radius: 8px;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-left: 25px;
+    background-color: #F1F1EF; 
+}
+.sercher_inp[placeholder]{
+	opacity: 0.5;
+}
+.sercher_inp:focus {
+	outline: none;
+}
+select {
+	background-color: #F2F1F0;
+	width: 22.5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 1px solid #F2F2F1;
+    border-radius: 8px;
+}
+select:focus {
+	outline: none;
+}
+.form >  p {
+	font-size: 1.4rem;
+	text-align: left;
+	margin: 0;
+	margin-left: 2.4rem;
+	margin-top: 1.4rem;
+}
+.form >  p:last-of-type {
+	margin-top: 2rem;
+}
+.form > select:last-of-type {
+	margin-top: 2rem;
+}
+.form > input[type="submit"] {
+	width: 18rem;
+	height: 5rem;
+	border: 1px solid #64BE7B;
+	border-radius: 5px;
+	background-color: #64BE7B;
+	background-image: url(../../images/birga_img/serching.png);
+	background-repeat: no-repeat;
+	background-position: 3rem center;
+	font-size: 2rem;
+	color: #fff;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding-left: 3rem;
+}
+.zagolocok {
+	display: flex;
+    margin-left: 4rem;
+    margin-top: 2.1rem;
+    width: 76.4rem;
+
+}
+.zagl {
+	color: #E1A402;
+	width: 76.4rem;
+	display: flex;
+	align-items: baseline;
+	border: 1px solid #FFFAE5;
+	border-bottom: 1px solid #FFE7C1;
+	background-color: #FFFAE5;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.zagl > h2 {
+	margin-left: 3rem;
+	margin-right: 0.7rem;
+}
+.zagl > p{
+	font-size: 1.3rem;
+}
+.zagl > p:first-of-type {
+	margin-right: 62%;
+}
+.zagl > p:last-of-type {
+	display: flex;
+	color: #ECC96E;
+    width: 11rem;
+    justify-content: space-between;
+}
+.zagl > p > img {
+	margin-top: -0.2rem;
+	margin-left: -2rem;
+}
+.describ_content {
+	margin-top: -1rem;
+	width: 76.2rem;
+	background-color: #fff;
+	margin-left: 4rem;
+	background-image: url(../../images/birga_img/worker_img.png);
+	background-repeat: no-repeat;
+	background-position: 1.4rem 1.5rem;
+	border: 1px solid #fff;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.glavnai > p {
+	font-size: 1.4rem;
+	margin-left: 4rem;
+	margin-top: 1.5rem;
+	color: #5B636F;
+}
+.descride_worck {
+	width: 93%;
+}
+.descride_worck > p {
+	margin-top: -0.5rem;
+	margin-left: 1.5rem;
+	font-size: 1.4rem;
+	color: #C3C6C7;
+}
+.info_about_luker {
+	margin-top: -2rem;
+	display: flex;
+	justify-content: flex-end;
+	color: #C3C6C7;
+    font-size: 1.4rem;
+}
+.info_about_luker > p {
+   margin-right: 3rem;
+}
+.info_about_luker > p:first-of-type {
+  text-align: right;
+  width: 5rem; 
+  background: url(../../images/birga_img/luker.png) no-repeat;
+  background-position: center center
+}
+.info_about_luker > p:last-of-type {
+	text-align: right;
+	width: 14rem;
+	background: url(../../images/birga_img/calendar.png) no-repeat left center;
+}
+.main_content > footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #282828; 
+  position: absolute;
+  margin-top: 12rem;
+  left: 0;
+  right: 0;
+  height: 10rem;
+}
+.main_content > footer > p {
+  color: #fff;
+  font-size: 1.3rem;
+  margin: auto 0 ;
+  margin-left: 9.5%;
+}
+.main_content > footer > a {
+  margin: auto 0 ;
+  margin-right: 9.7%;
+  width: 5rem;
+  height: 5rem;
+  background: url(../../images/birga_img/vk.png) no-repeat center center;
+}
+@media(max-width: 1240px){
+	.serch {
+       margin-left: 2rem;	
+	}
+	.nik {
+		margin-left: -2%;	
+	}
+}
+@media(max-width: 1134px) {
+    .zagolocok , .zagl{
+       width: 70rem;
+
+    }
+    .describ_content {
+    	width: 69.7rem;
+    }
+    .avatar > p:first-of-type {
+    	width: 13rem;
+    }
+}
+@media(max-width: 1035px) {
+	.adapt_menu 
+}
+@media(max-width: 1065px) {
+	    .zagolocok , .zagl{
+       width: 65rem;
+    }
+        .describ_content {
+    	width: 64.7rem;
+    }
+    .zagl > p:last-of-type {
+      padding-right: 3rem;
+      margin-left: -3rem;
+    }
+    .zagl > p > img {
+    	margin-right: -2rem;
+    }
+}
+@media (max-width: 1013px) {
+ .zagolocok , .zagl{
+       width: 60rem;
+    }
+        .describ_content {
+    	width: 59.7rem;
+    }
+        .zagl > p:last-of-type {
+      padding-right: 5rem;
+      margin-left: -5rem;
+    }
+    .zagl > p > img {
+    	margin-right: -4rem;
+    }
+    .main_content > footer > a {
+    	margin-right: 2%;
+    }
+}
+@media(max-width: 965px) {
+	    .zagolocok , .zagl{
+       width: 55rem;
+
+    }
+  .zagl > p:last-of-type {
+      padding-right: 7rem;
+      margin-left: -7rem;
+    }
+    .zagl > p > img {
+    	margin-right: -7rem;
+    }
+    .main_content > footer > a {
+    	margin-right: 2%;
+    }
+    .describ_content {
+    	width: 54.7rem;
+    }
+    .avatar {
+    	width: 40%;
+    }
+}
+@media(max-width: 910px) {
+   .serch > form > h1 {
+   	width: 16.5rem;
+  }
+  .form {
+  	width: 19rem;
+  }
+  .sercher_inp {
+  	width: 15rem;
+  }
+  select {
+  	width: 17rem;
+  }
+  .form > input[type="submit"] {
+  	width: 15rem;
+  	height: 3rem;
+  }
+}
+@media(max-width: 830px){
+	.block1 {
+		margin-left: -3rem;
+	}
+}
+@media(max-width: 796px) {
+   .page-wrapper {
+      flex-flow: column;
+   }
+   .serch {
+   	width: 25rem;
+   	margin: 0 auto;
+   }
+   .serch > form > h1{
+   	  width: 25rem;
+   }
+
+   .form {
+   	width: 27.5rem;
+   }
+   .sercher_inp {
+   	width: 20rem;
+   }
+   select {
+   	width: 22.5rem;
+   }
+   .form > input[type="submit"]  {
+   	  width: 18rem;
+   	  height: 4rem;
+   }
+   .main_content {
+   	margin: 0 auto;
+   }
+   	    .zagolocok , .zagl{
+       width: 65rem;
+    }
+        .describ_content {
+    	width: 64.7rem;
+    }
+    .zagl > p:last-of-type {
+      padding-right: 3rem;
+      margin-left: -3rem;
+    }
+    .zagl > p > img {
+    	margin-right: -2rem;
+    }
+}
+@media(max-width: 695px) {
+	.avatar {
+		margin-right: 5%;
+	}
+	.avatar > p {
+		margin-left: 2rem;
+	}
+	   	    .zagolocok , .zagl{
+       width: 50rem;
+    }
+        .describ_content {
+    	width: 49.7rem;
+    }
+    .zagl > p:last-of-type {
+      padding-right: 10rem;
+      margin-left: -10rem;
+    }
+    .zagl > p > img {
+    	margin-right: -10rem;
+    }
+}
+@media(max-width: 612px) {
+   .avatar {
+   	width: 70%;
+   }
+}
+@media(max-width: 535px) {
+	.zagolocok , .zagl{
+       width: 95%;
+    }
+        .describ_content {
+    	width: 89.7%;
+    }
+    .zagl > p:last-of-type {
+      padding-right: 30%;
+      margin-left: -30%;
+      width: 100%;
+    }
+    .zagl > p > img {
+    	margin-right: -90%;
+    }
+}
+@media(max-width: 425px) {
+		.zagolocok , .zagl{
+       width: 90%;
+       margin-left: 7%;
+    }
+        .describ_content {
+    	width: 81%;
+    	 margin-left: 13%;
+    }
+    .zagl > p:last-of-type {
+      padding-right: 50%;
+      margin-left: -50%;
+      width: 100%;
+    }
+    .zagl > p > img {
+    	margin-right: -100%;
+    }
+}
+@media(max-width: 380px) {
+	    .zagl > p:last-of-type {
+      padding-right: 60%;
+      margin-left: -60%;
+      width: 100%;
+    }
+    .zagl > p > img {
+    	margin-right: -100%;
+    }
+}
+@media(max-width: 347px){
+	html{
+	overflow-x: scroll;
+}
+}

@@ -1,0 +1,132 @@
+html {
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+header {
+	display: flex;
+	flex: 1 1 250px;
+    justify-content: space-between;
+	background-color: #303F4E;
+}
+.menu , ul{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+}
+.adapt_menu {
+	display: flex;
+	flex: 1
+	width: 100%;
+	margin: 0;
+	flex-flow: row nowrap;
+}
+.menu > ul > li > a {
+   display: flex;
+   flex-flow: row nowrap;
+   padding: 1rem 5rem 1rem 5rem;
+   width: 100%;
+   color: #fff;
+   font-size: 1.4rem;
+   -webkit-transition: all 1s;
+   -ms-transition: all 1s;
+   transition: all 1s;
+}
+.menu > ul > li > a:hover {
+	background-color:  #48576C;
+}
+.login {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-right: 10%;
+	align-items: center;
+}
+.login > p {
+	color: #fff;
+	font-size: 1.3rem;
+	margin-left: 1rem;
+}
+.login > input {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 43%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 1rem;
+  padding-left: 1.8rem;
+}
+.login > input[type="text"] {
+	width: 10rem;
+}
+.login > input[type="text"]:focus {
+	outline: none;
+}
+.login > input:first-of-type {
+	background: url(../../images/registr_img/pipile.png) no-repeat 0.5rem center;
+	background-color: #fff;
+}
+.login > input[placeholder="Проль"] {
+	background: url(../../images/registr_img/zamok.png) no-repeat 0.5rem center;
+	background-color: #fff;
+}
+.login > input[type="submit"] {
+	height: 45%;
+	background-color: #55A86C;
+	border: 1px solid #55A86C;
+	border-radius: 5px;
+	width: 8rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.3rem;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-left: 7%;
+	margin-top: -1.5rem;
+}
+.logo > h1 {
+	font-size: 5rem;
+}
+.logo > h1 > .K {
+	color: #284E7D;
+}
+
+.logo > h1 > .ursach {
+   background: linear-gradient(to bottom, #5978A2 40%,#284E7D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dot {
+  font-size: 0rem;
+  border: 3px solid #2A4E7E;
+  border-radius: 50%;
+  
+}
+.ru {
+   background: linear-gradient(to bottom, #5978A2 40%,#284E7D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo > p {
+	font-size: 1.7rem;
+	margin-top: -3rem;
+    color: #395581;
+}
+.page-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
